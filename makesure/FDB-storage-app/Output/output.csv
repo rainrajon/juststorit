@@ -1,0 +1,3 @@
+,NDC,Storage_Condition,Reason,Status,created_date,GUID,execution_time,prompt_id,error_msg,response_status_code,batch_id,img_loc,ProprietaryName,DocID,SetID,S3Key,NDC11
+1,61915-0069-60,,,failure,11/21/2023 14:01:44,62baeeac-523d-44a8-9417-587e6a625d76,6.718237638473511,,NDC not found in SPL key,,11212023,11212023/image2.jpg,,,,,
+0,68135-0811-02,Freeze,Temperature found within range,success,11/21/2023 14:01:44,88b9c41f-8d11-46f4-8fee-2bab6a3dfef1,10.109279155731201,prompt 1,,,11212023,11212023/image1.jpg,Brineura,16b9611a-cd8a-4505-b095-de5ab4054b37,485ab3c5-0359-4878-872f-2fe1e7df4047,SPL Files/2021/11/15/485ab3c5-0359-4878-872f-2fe1e7df4047/16b9611a-cd8a-4505-b095-de5ab4054b37.xml,68135081102.0
