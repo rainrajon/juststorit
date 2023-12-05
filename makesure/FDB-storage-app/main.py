@@ -3,7 +3,6 @@ import ipdb
 import requests
 import json
 import openai
-# from langchain.llms import AzureOpenAI
 import openai
 import time
 from extract import *
