@@ -10,7 +10,5 @@ steps:
    cd makesure/FDB-storage-app
    az acr build --image scimg:v$(Build.BuildId) --registry demoin --file dockerfile .
    az extension add --name containerapp --upgrade
-   az provider register --namespace Microsoft.App
-   az provider register --namespace Microsoft.OperationalInsights
    az containerapp update --name prajwalapp --resource-group myResourceGroup --image demoin.azurecr.io/scimg:v$(Build.BuildId)   
   displayName: 'Build and Deploy'
